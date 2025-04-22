@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Education Platform - CourseHub
 
-## Getting Started
+A modern education platform with course listings, cart functionality, and responsive design. Built in both Next.js and vanilla HTML/CSS versions.
 
-First, run the development server:
+![CourseHub Screenshot](/screenshot.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Both Versions Include:
+- **Landing Page** with hero section, categories, testimonials
+- **Courses Listing** with filtering and sorting
+- **Course Details** with add-to-cart functionality
+- **Contact Page** with form and map
+- **Responsive Design** for all screen sizes
+- **Cart Functionality** with item count
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Next.js Version Features:
+- 🚀 Next.js 14 App Router
+- 🎨 Tailwind CSS for styling
+- ✨ Framer Motion animations
+- 🛒 Redux for state management
+- 📱 Optimized mobile experience
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Folder Structure
+├── nextjs-version/ # Next.js implementation
+│ ├── app/ # App router directory
+│ ├── components/ # Reusable components
+│ ├── redux/ # State management
+│ └── public/ # Static assets
+│
+├── README.md # This file
+└── screenshot.png # Project screenshot
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Setup Instructions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Next.js Version
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Navigate to the Next.js folder:
+   ```bash
+   cd nextjs-version
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
