@@ -12,9 +12,9 @@ export default function Courses() {
   const [sort, setSort] = useState('Popularity');
 const cartItems = []; // Temporary
   const courses = [
-    { id: 1, title: 'Web Development', image: '/course1.jpg', instructor: 'John Doe', description: 'Learn to build modern websites.', price: 99, category: 'Programming', level: 'Beginner', popularity: 100 },
-    { id: 2, title: 'Data Science', image: '/course2.jpg', instructor: 'Jane Smith', description: 'Master data analysis.', price: 129, category: 'Data Science', level: 'Intermediate', popularity: 80 },
-    { id: 3, title: 'Python Basics', image: '/course1.jpg', instructor: 'Alice Brown', description: 'Introduction to Python.', price: 79, category: 'Programming', level: 'Beginner', popularity: 90 },
+    { id: 1, title: 'Web Development', image: '/amico.png', instructor: 'John Doe', description: 'Learn to build modern websites.', price: 99, category: 'Programming', level: 'Beginner', popularity: 100 },
+    { id: 2, title: 'Data Science', image: '/amico.png', instructor: 'Jane Smith', description: 'Master data analysis.', price: 129, category: 'Data Science', level: 'Intermediate', popularity: 80 },
+    { id: 3, title: 'Python Basics', image: '/amico.png', instructor: 'Alice Brown', description: 'Introduction to Python.', price: 79, category: 'Programming', level: 'Beginner', popularity: 90 },
   ];
 
   const filteredCourses = courses
