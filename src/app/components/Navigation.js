@@ -74,7 +74,7 @@ const Navigation = () => {
                   {cart.items.map((item) => (
                     <li key={item.id} className="flex justify-between py-1">
                       <Link
-                        href={`/course/1/courseDetails`}
+                        href={`/cart`}
                         className="text-purple-600 hover:underline"
                       >
                         {item.title}

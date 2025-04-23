@@ -29,7 +29,7 @@ export default function Contact() {
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Get in Touch</h1>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Have questions about our courses or services? We're here to help you on your educational journey.
+          Have questions about our courses or services? We&apos;re here to help you on your educational journey.
         </p>
       </div>
 
@@ -67,7 +67,7 @@ export default function Contact() {
             <FaEnvelope className="text-indigo-600 text-xl" />
           </div>
           <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-          <p className="text-gray-600 mb-4">We'll respond within 24 hours</p>
+          <p className="text-gray-600 mb-4">We&abos;ll respond within 24 hours</p>
           <p className="text-lg font-medium mb-4">info@edulearn.com</p>
           <a 
             href="mailto:info@edulearn.com" 

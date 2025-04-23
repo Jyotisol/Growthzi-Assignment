@@ -1,4 +1,5 @@
 // pages/signin.js
+import Image from 'next/image';
 import { FaGoogle, FaTwitter } from 'react-icons/fa';
 
 export default function Login() {
@@ -9,7 +10,8 @@ export default function Login() {
         {/* Left side - Illustration */}
         <div className="w-1/2 p-10 hidden md:flex items-center justify-center bg-purple-100">
           <div className="text-center">
-            <img src="/Frame.png" alt="Reading illustration" className="mx-auto w-60" />
+            <Image src="/Frame.png" alt="Reading illustration" className="mx-auto w-60"  width={200}
+            height={200} />
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 // pages/signin.js
 import { FaGoogle, FaTwitter } from 'react-icons/fa';
-
+import Image from "next/image"
 export default function Signup() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white px-6">
@@ -8,10 +8,12 @@ export default function Signup() {
         
         {/* Left: Illustration */}
         <div className="hidden md:flex flex-col items-center justify-center bg-white w-1/2 p-8">
-          <img
+          <Image
             src="/Frame.png"
             alt="Learning illustration"
             className="w-80 h-auto"
+            width={200}
+            height={200}
           />
         </div>
 
